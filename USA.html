@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Embedding Vega-Lite</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  </head>
+  <body>
+    <div>
+      <h2> Espectativa de vida USA año 2000</h2>
+    </div>
+    <br>
+    <div id="vis"></div>
+
+    <script type="text/javascript">
+      var yourVlSpec = {
+
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A bar chart showing the US population distribution of age groups and gender in 2000.",
+  "data": { "url": "https://vega.github.io/vega-lite/examples/data/population.json"},
+  
+
+ "transform": [
+    {"filter": "datum.year == 2000"},
+    {"calculate": "datum.sex == 2 ? 'Female' : 'Male'", "as": "gender"}
+  ],
+  
+  "layer": [{
+    "params": [{
+      "name": "brush",
+      "select": {"type": "interval", "encodings": ["x"]}
+      ,
+    }],
+    "mark": "bar",
+    "encoding": {
+       "x": {"field": "age", "type": "ordinal"},
+    "y": {
+      "aggregate": "sum", "field": "people",
+      "title": "population",
+      "stack": null
+    },
+    "color": {
+      "field": "gender",
+      "scale": {"range": ["#FF66C4", "#004AAD"]}
+    },
+    "opacity": {"value": 0.7}
+  },
+      "opacity": {
+        "condition": {
+          "param": "brush", "value": 1
+        },
+        "value": 0.7
+      }
+    
+  }, {
+    "transform": [{
+      "filter": {"param": "brush"}
+    }],
+    "mark": "rule",
+    "encoding": {
+      "y": {
+        "aggregate": "mean",
+        "field": "people",
+        "type": "quantitative"
+      },
+      "color": {"value": "#004AAD"},
+      "size": {"value": 3}
+    }
+  }]
+}
+;
+      
+      vegaEmbed('#vis', yourVlSpec);
+    </script>
