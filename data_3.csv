@@ -1,49 +1,97 @@
-Provincia,Porcentaje,Dosis
-Buenos Aires,0.539635287,Primera
-CABA,0.661708841,Primera
-Catamarca,0.550229003,Primera
-Chaco,0.456882525,Primera
-Chubut,0.49448251,Primera
-Corrientes,0.495802958,Primera
-Córdoba,0.549838202,Primera
-Entre Ríos,0.49778836,Primera
-Formosa,0.554738459,Primera
-Jujuy,0.514681499,Primera
-La Pampa,0.592442044,Primera
-La Rioja,0.569379503,Primera
-Mendoza,0.528698051,Primera
-Misiones,0.379723951,Primera
-Neuquén,0.57340277,Primera
-Río Negro,0.571589534,Primera
-Salta,0.461281231,Primera
-San Juan,0.545247622,Primera
-San Luis,0.589353102,Primera
-Santa Cruz,0.477657462,Primera
-Santa Fe,0.572692857,Primera
-Santiago del Estero,0.574400073,Primera
-Tierra del Fuego,0.547516278,Primera
-Tucumán,0.518416296,Primera
-Buenos Aires,0.136074122,Segunda
-CABA,0.215278761,Segunda
-Catamarca,0.127768854,Segunda
-Chaco,0.127058073,Segunda
-Chubut,0.137346805,Segunda
-Corrientes,0.139616215,Segunda
-Córdoba,0.161305661,Segunda
-Entre Ríos,0.134024784,Segunda
-Formosa,0.122191276,Segunda
-Jujuy,0.142153868,Segunda
-La Pampa,0.223584232,Segunda
-La Rioja,0.160808533,Segunda
-Mendoza,0.124759558,Segunda
-Misiones,0.123727835,Segunda
-Neuquén,0.174805676,Segunda
-Río Negro,0.153988101,Segunda
-Salta,0.114572382,Segunda
-San Juan,0.145675241,Segunda
-San Luis,0.206636093,Segunda
-Santa Cruz,0.151266424,Segunda
-Santa Fe,0.15279018,Segunda
-Santiago del Estero,0.130155984,Segunda
-Tierra del Fuego,0.15424571,Segunda
-Tucumán,0.160256683,Segunda
+Provincia,Porcentaje,Dósis,Filtro
+Buenos Aires,0.539635287,Primera,Primera
+CABA,0.661708841,Primera,Primera
+Catamarca,0.550229003,Primera,Primera
+Chaco,0.456882525,Primera,Primera
+Chubut,0.49448251,Primera,Primera
+Corrientes,0.495802958,Primera,Primera
+Córdoba,0.549838202,Primera,Primera
+Entre Ríos,0.49778836,Primera,Primera
+Formosa,0.554738459,Primera,Primera
+Jujuy,0.514681499,Primera,Primera
+La Pampa,0.592442044,Primera,Primera
+La Rioja,0.569379503,Primera,Primera
+Mendoza,0.528698051,Primera,Primera
+Misiones,0.379723951,Primera,Primera
+Neuquén,0.57340277,Primera,Primera
+Río Negro,0.571589534,Primera,Primera
+Salta,0.461281231,Primera,Primera
+San Juan,0.545247622,Primera,Primera
+San Luis,0.589353102,Primera,Primera
+Santa Cruz,0.477657462,Primera,Primera
+Santa Fe,0.572692857,Primera,Primera
+Santiago del Estero,0.574400073,Primera,Primera
+Tierra del Fuego,0.547516278,Primera,Primera
+Tucumán,0.518416296,Primera,Primera
+Buenos Aires,0.136074122,Segunda,Segunda
+CABA,0.215278761,Segunda,Segunda
+Catamarca,0.127768854,Segunda,Segunda
+Chaco,0.127058073,Segunda,Segunda
+Chubut,0.137346805,Segunda,Segunda
+Corrientes,0.139616215,Segunda,Segunda
+Córdoba,0.161305661,Segunda,Segunda
+Entre Ríos,0.134024784,Segunda,Segunda
+Formosa,0.122191276,Segunda,Segunda
+Jujuy,0.142153868,Segunda,Segunda
+La Pampa,0.223584232,Segunda,Segunda
+La Rioja,0.160808533,Segunda,Segunda
+Mendoza,0.124759558,Segunda,Segunda
+Misiones,0.123727835,Segunda,Segunda
+Neuquén,0.174805676,Segunda,Segunda
+Río Negro,0.153988101,Segunda,Segunda
+Salta,0.114572382,Segunda,Segunda
+San Juan,0.145675241,Segunda,Segunda
+San Luis,0.206636093,Segunda,Segunda
+Santa Cruz,0.151266424,Segunda,Segunda
+Santa Fe,0.15279018,Segunda,Segunda
+Santiago del Estero,0.130155984,Segunda,Segunda
+Tierra del Fuego,0.15424571,Segunda,Segunda
+Tucumán,0.160256683,Segunda,Segunda
+Buenos Aires,0.539635287,Primera,Ambas
+CABA,0.661708841,Primera,Ambas
+Catamarca,0.550229003,Primera,Ambas
+Chaco,0.456882525,Primera,Ambas
+Chubut,0.49448251,Primera,Ambas
+Corrientes,0.495802958,Primera,Ambas
+Córdoba,0.549838202,Primera,Ambas
+Entre Ríos,0.49778836,Primera,Ambas
+Formosa,0.554738459,Primera,Ambas
+Jujuy,0.514681499,Primera,Ambas
+La Pampa,0.592442044,Primera,Ambas
+La Rioja,0.569379503,Primera,Ambas
+Mendoza,0.528698051,Primera,Ambas
+Misiones,0.379723951,Primera,Ambas
+Neuquén,0.57340277,Primera,Ambas
+Río Negro,0.571589534,Primera,Ambas
+Salta,0.461281231,Primera,Ambas
+San Juan,0.545247622,Primera,Ambas
+San Luis,0.589353102,Primera,Ambas
+Santa Cruz,0.477657462,Primera,Ambas
+Santa Fe,0.572692857,Primera,Ambas
+Santiago del Estero,0.574400073,Primera,Ambas
+Tierra del Fuego,0.547516278,Primera,Ambas
+Tucumán,0.518416296,Primera,Ambas
+Buenos Aires,0.136074122,Segunda,Ambas
+CABA,0.215278761,Segunda,Ambas
+Catamarca,0.127768854,Segunda,Ambas
+Chaco,0.127058073,Segunda,Ambas
+Chubut,0.137346805,Segunda,Ambas
+Corrientes,0.139616215,Segunda,Ambas
+Córdoba,0.161305661,Segunda,Ambas
+Entre Ríos,0.134024784,Segunda,Ambas
+Formosa,0.122191276,Segunda,Ambas
+Jujuy,0.142153868,Segunda,Ambas
+La Pampa,0.223584232,Segunda,Ambas
+La Rioja,0.160808533,Segunda,Ambas
+Mendoza,0.124759558,Segunda,Ambas
+Misiones,0.123727835,Segunda,Ambas
+Neuquén,0.174805676,Segunda,Ambas
+Río Negro,0.153988101,Segunda,Ambas
+Salta,0.114572382,Segunda,Ambas
+San Juan,0.145675241,Segunda,Ambas
+San Luis,0.206636093,Segunda,Ambas
+Santa Cruz,0.151266424,Segunda,Ambas
+Santa Fe,0.15279018,Segunda,Ambas
+Santiago del Estero,0.130155984,Segunda,Ambas
+Tierra del Fuego,0.15424571,Segunda,Ambas
+Tucumán,0.160256683,Segunda,Ambas
